@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="RemoteDatabase">
+  <DataContextMoniker Name="/RemoteDatabaseDataContext" />
+  <nestedChildShapes>
+    <classShape Id="d2b3d2f0-107d-4a02-9c67-0967f2cd863f" absoluteBounds="4.75, 0.625, 2, 1.9068933105468751">
+      <DataClassMoniker Name="/RemoteDatabaseDataContext/rCourse" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1f77329a-4383-4a68-bbde-caf817ac5a56" absoluteBounds="4.7650000000000006, 1.085, 1.9700000000000002, 1.346893310546875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="53ed7f5f-aa4a-4077-a3c1-20e5b71d6991" absoluteBounds="2.625, 0.5, 2, 1.3525109863281251">
+      <DataClassMoniker Name="/RemoteDatabaseDataContext/rMajor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b945604e-d6d9-476f-ac44-27fa2e1776fa" absoluteBounds="2.64, 0.96, 1.9700000000000002, 0.792510986328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7ec5b0ef-2818-4103-a0cf-6679e0a04874" absoluteBounds="2.625, 2.125, 2, 1.5373050944010416">
+      <DataClassMoniker Name="/RemoteDatabaseDataContext/rMajorType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="61d1778c-1eb2-4e41-af54-6bee2b286464" absoluteBounds="2.64, 2.585, 1.9700000000000002, 0.97730509440104174" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6e0727af-4ec2-40d1-9a36-dc42ea01573a" absoluteBounds="4.75, 2.75, 2, 2.6460697428385416">
+      <DataClassMoniker Name="/RemoteDatabaseDataContext/rStudent" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0f628ce8-b369-40b8-a556-e0ef0c6984ab" absoluteBounds="4.765, 3.21, 1.9700000000000002, 2.0860697428385415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cdcb2ab6-04c9-4e46-bb88-773bcf9b394f" absoluteBounds="0.5, 0.75, 2, 3.0156579589843751">
+      <DataClassMoniker Name="/RemoteDatabaseDataContext/rCoursePlan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="07d76004-45ad-4317-9183-44159cf2c2fd" absoluteBounds="0.51500000000000012, 1.21, 1.9700000000000002, 2.455657958984375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a4a1fd93-492a-417a-8832-d266dfd92c5c" absoluteBounds="1.875, 3.875, 2, 1.7220992024739581">
+      <DataClassMoniker Name="/RemoteDatabaseDataContext/ElectiveStudent" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0c5d2e1c-53db-4c0d-87cf-a05eb42dfa52" absoluteBounds="1.8900000000000001, 4.335, 1.9700000000000002, 1.1620992024739583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

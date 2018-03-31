@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="School.master.cs" Inherits="SelectCourseSystem.School" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles/Site.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+
+        .auto-style2 {
+            color: #6600CC;
+            text-align: center;
+        }
+        .auto-style3 {
+            color: #CC3300;
+            text-align: center;
+        }
+        .content {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <h1 class="auto-style2">
+                中国科学技术大学软件学院</h1>
+        </div>
+    <div class="content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+        <div class="auto-style3">
+            Copyright (c) 2016 Calotte
+        </div>
+    </form>
+</body>
+</html>
