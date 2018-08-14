@@ -33,7 +33,7 @@ namespace SelectCourseSystem
                      };
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void Button1_Click(object sender, EventArgs e)//从学院数据库获取原始课程数据导入本地数据库
         {
             SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["ustcsseConnectionString"].ConnectionString);
             conn.Open();
